@@ -58,9 +58,9 @@
 
 //exercise 4 
 //let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
-//let n = Math.round(Math.random() * (500 - 100) + 100); // kept here  just in case I need to change somthing 
+//let n4 = Math.round(Math.random() * (500 - 100) + 100); // kept here  just in case I need to change somthing 
 //let n = 1
-//for (let i = 1; i <= n; i++) {
+//for (let i = 1; i <= n4; i++) {
 //    if (i == value) {
 //        console.log(`Found ${value}`);
 //        break;
@@ -75,10 +75,10 @@
 console.log('exercise 5')
 let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
-let n = Math.round(Math.random() * (1000 - 1) + 1);
+let n5 = Math.round(Math.random() * (1000 - 1) + 1);
 let start = 1;
 //let start = Math.round(Math.random() * (10 - 1) + 1); // kept here  just in case I need to change somthing
-for (start; start <= n; start++) {
+for (start; start <= n5; start++) {
     
     if (start % fizzDivisor == 0 && start % buzzDivisor == 0) {
         console.log(`FIZZBUZZ`);
